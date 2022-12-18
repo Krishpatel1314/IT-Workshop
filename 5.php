@@ -3,6 +3,5 @@
     $a="PHP originally stood for Personal Home Page.<br>";
     fwrite($myfile,$a);
     echo readfile("5.txt");
-    fclose($myfile);
-    
+    fclose($myfile);  
 ?>
