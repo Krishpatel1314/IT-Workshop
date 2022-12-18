@@ -1,6 +1,6 @@
 <form method="post">        
 Enter a Number: <input type="text" name="a"/><br>  
-<button type="submit"> Check</button>  
+<button type="submit">Check</button>  
 </form>  
 <?php   
     if($_POST)  
