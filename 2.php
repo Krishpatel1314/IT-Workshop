@@ -1,7 +1,7 @@
 <form method="post">        
 Enter a first Number: <input type="text" name="a"/><br> 
 Enter a second Number: <input type="text" name="b"/><br> 
-<button type="submit">Swap</button>  
+<button type="submit">Swap </button>  
 </form>  
 <?php   
     if($_POST)  
