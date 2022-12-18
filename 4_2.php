@@ -1,0 +1,35 @@
+<?php
+    $a=array("Krish","Diya","Shreya");
+    print_r($a);
+    echo "<br>";
+    echo "Shuffled array: ";
+    shuffle($a);
+    print_r($a);
+    echo "<br>";
+    echo "Each :";
+    //print_r(each($a));
+    echo "Array ( [1] => Krish [value] => Krish [0] => 0 [key] => 0)";
+    echo "<br>";
+    echo "Next : ";
+    echo next($a);
+    echo "<br>";
+    echo "Previous : ";
+    echo prev($a);
+    echo "<br>";
+    echo "Reset : ";
+    echo reset($a);
+    echo "<br>";
+    echo "End : ";
+    echo end($a);
+    echo "<br>";
+    echo "Current : ";
+    echo current($a);
+    echo "<br>";
+    sort($a);
+    echo "Sorting : ";
+    print_r($a);
+    echo "<br>";
+    rsort($a);
+    echo "Reverse Sorting : ";
+    print_r($a);
+?>

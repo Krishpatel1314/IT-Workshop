@@ -1,18 +1,17 @@
 <form method="post">        
-Enter a Number: <input type="text" name="a"/><br>  
-<button type="submit">Check</button>  
+Enter a first Number: <input type="text" name="a"/><br> 
+Enter a second Number: <input type="text" name="b"/><br> 
+<button type="submit">Swap</button>  
 </form>  
 <?php   
     if($_POST)  
-    {
-        $a = $_POST['a'];  
-        $b = strrev($a);  
-        if($a == $b)
-        {  
-            echo "The number is Palindrome";     
-        }else
-        {  
-            echo "The number is not a Palindrome";   
-        }  
+    {  
+        $a = $_POST['a'];
+        $b = $_POST['b'];
+        echo "Numbers before swapping are:a=".$a." b=".$b;
+        $t = $a;
+        $a = $b;
+        $b = $t;
+        echo "<br>"."Numbers after swapping are:a=".$a." b=".$b;
     }     
 ?> 

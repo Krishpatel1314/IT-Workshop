@@ -1,0 +1,1 @@
+PHP originally stood for Personal Home Page.<br>
