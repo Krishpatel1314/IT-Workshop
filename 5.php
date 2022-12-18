@@ -4,4 +4,5 @@
     fwrite($myfile,$a);
     echo readfile("5.txt");
     fclose($myfile);
+    
 ?>
